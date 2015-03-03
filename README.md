@@ -1,0 +1,1 @@
+Support du billet de blog [RMI avec des SocketFactories pour compresser les flux](http://the-babel-tower.github.io/2015/03/03/RMI-zip-socket-factories/)
