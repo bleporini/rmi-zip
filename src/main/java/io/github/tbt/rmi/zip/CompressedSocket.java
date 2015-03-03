@@ -36,7 +36,7 @@ public class CompressedSocket extends Socket {
     @Override
     public synchronized OutputStream getOutputStream() throws IOException {
         if (os == null) {
-            os = new DeflaterOutputStream(super.getOutputStream(),true);
+            os = new DeflaterOutputStream(super.getOutputStream());
         }
         return os;
     }

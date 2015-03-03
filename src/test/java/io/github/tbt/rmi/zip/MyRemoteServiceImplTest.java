@@ -8,9 +8,6 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-/**
- * @author blep
- */
 public class MyRemoteServiceImplTest {
 
     private static final String SERVICE_NAME = "myService";
